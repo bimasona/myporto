@@ -10,20 +10,10 @@ export default function Home() {
         <div className="flex-none hidden lg:block">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Link</a>
+              <a href="about">About Me</a>
             </li>
             <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2 bg-base-100">
-                  <li>
-                    <a>Link 1</a>
-                  </li>
-                  <li>
-                    <a>Link 2</a>
-                  </li>
-                </ul>
-              </details>
+              <a href="projects">Project</a>
             </li>
           </ul>
         </div>
@@ -71,7 +61,7 @@ export default function Home() {
               <h2 className="card-title font-bold text-white text-center text-2xl">
                 BIMASONA
               </h2>
-              <img src="" alt="">
+
               <p className="text-justify">
                 Backend Developer | Project Manager | UI/UX
               </p>
